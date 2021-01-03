@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Search.SearchFragment"
+    android:background="#FFFFFF">
+
+   <androidx.cardview.widget.CardView
+       android:layout_alignParentTop="true"
+       android:background="@color/arkaPlan"
+       android:layout_width="match_parent"
+       android:layout_height="50dp">
+
+       <RelativeLayout
+           android:background="@color/arkaPlan"
+           android:layout_width="match_parent"
+           android:layout_height="50dp">
+
+       <ImageView
+           android:id="@+id/search_icon"
+           android:layout_margin="10dp"
+           android:src="@drawable/ic_action_search"
+           android:layout_width="30dp"
+           android:layout_height="30dp"/>
+
+           <TextView
+               android:id="@+id/searchText"
+               android:focusable="true"
+               android:clickable="true"
+               android:textSize="20sp"
+               android:textColor="@color/colorAccent"
+               android:gravity="fill"
+               android:layout_toEndOf="@+id/search_icon"
+               android:hint="Ara"
+               android:layout_width="320dp"
+               android:layout_height="50dp"/>
+
+           <ImageView
+               android:id="@+id/filter"
+               android:layout_margin="7.5dp"
+               android:layout_alignParentRight="true"
+               android:src="@drawable/filter_search"
+               android:layout_toEndOf="@+id/searchText"
+               android:layout_width="35dp"
+               android:layout_height="35dp"/>
+
+       </RelativeLayout>
+   </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/kesfet_recycler"
+        android:background="@color/istek"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+
+
+</LinearLayout>

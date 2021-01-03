@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search.FindUserFragment"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card"
+        android:background="@color/arkaPlan"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/arkaPlan">
+
+            <ImageView
+                android:id="@+id/turn_back"
+               android:layout_margin="10dp"
+                android:src="@drawable/ic_action_turnback"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+
+            <EditText
+                android:id="@+id/find_user_editText"
+                android:focusable="true"
+                android:textSize="20sp"
+                android:gravity="fill"
+                android:layout_toEndOf="@+id/turn_back"
+                android:layout_marginStart="5dp"
+                android:hint="Ara"
+                android:background="@color/arkaPlan"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"/>
+
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/textCard"
+        android:layout_below="@+id/card"
+        android:background="@color/arkaPlan"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_below="@+id/card"
+        android:background="@color/arkaPlan"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="BAŞLICA"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:hint="HESAPLAR"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:hint="ETİKETLER"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:hint="YERLER"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/findUser_Recycler"
+        android:layout_below="@+id/textCard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+
+
+</RelativeLayout>

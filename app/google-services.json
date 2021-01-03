@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "42158467692",
+    "firebase_url": "https://instagram-6c629.firebaseio.com",
+    "project_id": "instagram-6c629",
+    "storage_bucket": "instagram-6c629.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42158467692:android:0906ac1bbd73a504514649",
+        "android_client_info": {
+          "package_name": "com.efeyegitoglu.instagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42158467692-mubkmaeridghqpcqpg35pi7gi7t2dqkn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX6mhAzPKgwjcxlavEdJkoUYDtG93CWek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42158467692-mubkmaeridghqpcqpg35pi7gi7t2dqkn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/istek"
+    android:layout_gravity="center"
+    android:layout_margin="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:background="@drawable/received_dm_background"
+        android:layout_gravity="center"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@drawable/hor_rec"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:id="@+id/rec_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:src="@drawable/profile_image"
+        app:civ_border_color="#ACABAB"
+        app:civ_border_width="1dp" />
+
+    <TextView
+        android:id="@+id/rec_userName"
+        android:gravity="center"
+        android:text="kullancıcı adı"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/rec_Name"
+        android:gravity="center"
+        android:text="kullancıcı adı"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/tertiary_text_light"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/rec_btn"
+        android:layout_margin="10dp"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:textColor="@color/istek"
+        android:text="Takip Et"
+        android:background="@drawable/button_takip_et"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+    </Button>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

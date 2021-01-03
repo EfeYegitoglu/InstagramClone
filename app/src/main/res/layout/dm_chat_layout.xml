@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/top_cardView_DM"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/arkaPlan"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/turnBackToDM"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp"
+
+                android:src="@drawable/ic_action_turnback" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/message_userPhoto"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@id/turnBackToDM"
+                android:src="@drawable/profile_image"
+                app:civ_border_color="#C5C5C5"
+                app:civ_border_width="1dp" />
+
+            <TextView
+                android:id="@+id/message_userName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="7dp"
+                android:layout_toEndOf="@+id/message_userPhoto"
+                android:textColor="@color/colorAccent"
+                android:textSize="14dp" />
+
+            <TextView
+                android:id="@+id/message_Name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/message_userName"
+                android:layout_marginLeft="15dp"
+                android:layout_toEndOf="@+id/message_userPhoto"
+                android:textSize="12dp" />
+
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_toStartOf="@+id/message_info"
+                android:src="@drawable/dm_cam" />
+
+            <ImageView
+                android:id="@+id/message_info"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/ic_action_info" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Message_recyclerView"
+        android:background="@android:color/white"
+        android:layout_below="@+id/top_cardView_DM"
+        android:layout_above="@+id/message_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <LinearLayout
+        android:id="@+id/message_linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/dm_edit_background">
+
+        <ImageView
+            android:id="@+id/circle_blue_cam"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_margin="7.5dp"
+            android:src="@drawable/dm_blue_camera"/>
+
+        <EditText
+            android:id="@+id/send_message_editText"
+            android:focusable="true"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:layout_weight="6"
+            android:background="@android:color/transparent"
+            android:hint="Mesaj..." />
+
+        <TextView
+            android:id="@+id/send_dm_Button"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="Gönder"
+            android:textColor="#1E90FF"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+
+</RelativeLayout>
