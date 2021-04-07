@@ -1,1 +1,7 @@
 # InstagramClone
+
+<img src="https://user-images.githubusercontent.com/76888997/113947858-40de2400-9814-11eb-85df-d587012e0ab9.jpg" width="400" height="800"> <img src="https://user-images.githubusercontent.com/76888997/113947860-42a7e780-9814-11eb-987f-40903355d1a6.jpg" width="400" height="800"> 
+<img src="https://user-images.githubusercontent.com/76888997/113947862-43407e00-9814-11eb-98a9-010d91c956e4.jpg" width="400" height="800"> <img src="https://user-images.githubusercontent.com/76888997/113947865-43d91480-9814-11eb-8537-8ccf6e647ef3.jpg" width="400" height="800"> 
+<img src="https://user-images.githubusercontent.com/76888997/113947866-4471ab00-9814-11eb-854a-38b74e3c95c5.jpg" width="400" height="800"> <img src="https://user-images.githubusercontent.com/76888997/113947867-4471ab00-9814-11eb-964b-cefde10a477b.jpg" width="400" height="800">
+<img src="https://user-images.githubusercontent.com/76888997/113947870-450a4180-9814-11eb-8ef5-eb7b95ba34b1.jpg" width="400" height="800"> <img src="https://user-images.githubusercontent.com/76888997/113947872-45a2d800-9814-11eb-8fe7-3f3288a15cee.jpg" width="400" height="800">
+<img src="https://user-images.githubusercontent.com/76888997/113947874-463b6e80-9814-11eb-8cf7-47225f54b74a.jpg" width="400" height="800"> <img src="https://user-images.githubusercontent.com/76888997/113947875-46d40500-9814-11eb-8e8e-10fba8b59d22.jpg" width="400" height="800">
